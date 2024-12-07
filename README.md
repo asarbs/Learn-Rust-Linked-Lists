@@ -12,7 +12,7 @@ The book covers the implementation of six linked lists, ranging from simple and 
 - **Testing and tooling:** Writing tests, using tools like `miri`, and managing Rust toolchains.
 - **Unsafe Rust:** Working with raw pointers, aliasing, `UnsafeCell`, and variance.
 
-### ✅ Lists Covered
+### Lists Covered
 
 1. **A Bad Singly-Linked Stack** ✅
 2. **An Ok Singly-Linked Stack** ❌
