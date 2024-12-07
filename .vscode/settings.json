@@ -1,0 +1,25 @@
+{
+    "files.insertFinalNewline":true,
+    "files.trimTrailingWhitespace": true,
+    "files.autoSave": "onFocusChange",
+    "files.associations": {
+
+    },
+    "editor.acceptSuggestionOnEnter": "on",
+    "[rust]": {
+        "editor.semanticHighlighting.enabled": false
+    },
+
+  "editor.inlayHints.fontFamily": "Courier New",
+  "editor.inlayHints.fontSize": 11,
+
+
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+        "*.mutable": {
+            "fontStyle": "", // underline is the default
+        },
+        }
+    },
+
+}

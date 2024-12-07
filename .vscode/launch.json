@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/build/linux/build/wvtt", 
+            "stopAtEntry": true,
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "args": ["-a","111","-e","--test_b","2","-c","test_name","-d"],
+            "cwd": "${workspaceRoot}",
+            "setupCommands": [
+              {
+                  "description": "Enable pretty-printing for gdb",
+                  "text": "-enable-pretty-printing",
+                  "ignoreFailures": true
+              },
+            ],
+            "preLaunchTask": "build",
+        },
+
+    ]
+}
